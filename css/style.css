@@ -31,4 +31,6 @@ body{
 	padding-top: 0px;
 	top: -69px;
 }
-.about-us h1
+.col-lg-10.about-us .title {
+	color: #FFFFFF;
+}
