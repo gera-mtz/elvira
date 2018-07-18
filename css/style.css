@@ -40,12 +40,12 @@ li.nav-item.active{
 	position: relative;
 	content: '';
 	display: block;
-	background-image: -webkit-linear-gradient(270deg,rgba(255,255,255,0.00) 0%,rgba(0,0,0,1.00) 74.08%,rgba(0,0,0,1.00) 100%);
-	background-image: -moz-linear-gradient(270deg,rgba(255,255,255,0.00) 0%,rgba(0,0,0,1.00) 74.08%,rgba(0,0,0,1.00) 100%);
-	background-image: -o-linear-gradient(270deg,rgba(255,255,255,0.00) 0%,rgba(0,0,0,1.00) 74.08%,rgba(0,0,0,1.00) 100%);
-	background-image: linear-gradient(180deg,rgba(255,255,255,0.00) 0%,rgba(0,0,0,1.00) 74.08%,rgba(0,0,0,1.00) 100%);
-	margin-top: -160px;
-	height: 160px;
+	background-image: -webkit-linear-gradient(270deg,rgba(255,255,255,0.00) 0%,rgba(0,0,0,0.7) 74.08%,rgba(0,0,0,1.00) 100%);
+	background-image: -moz-linear-gradient(270deg,rgba(255,255,255,0.00) 0%,rgba(0,0,0,0.7) 74.08%,rgba(0,0,0,1.00) 100%);
+	background-image: -o-linear-gradient(270deg,rgba(255,255,255,0.00) 0%,rgba(0,0,0,0.7) 74.08%,rgba(0,0,0,1.00) 100%);
+	background-image: linear-gradient(180deg,rgba(255,255,255,0.00) 0%,rgba(0,0,0,0.7) 74.08%,rgba(0,0,0,1.00) 100%);
+	margin-top: -450px;
+	height: 450px;
 }
 
 .carousel-item > img {
