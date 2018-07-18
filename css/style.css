@@ -2,6 +2,11 @@ body{
 	background-color: #000;
 }
 
+/*modificar para el navbar... gato <3*/
+.navbar-dark .navbar-nav .active > .nav-link{
+	background-color: purple;
+}
+
 .carousel-inner{
 	position: relative;
 	width: 100%;
