@@ -86,6 +86,11 @@ li.nav-item.active{
 	margin: 2% 4px;
 	flex: 0 1 calc(25% - 8px);
 	text-align: center;
+
+}
+
+.man-item img {
+	object-fit : cover;
 }
 
 .management {
