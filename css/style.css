@@ -14,13 +14,42 @@ p{
 	text-shadow: 0 2px 4px rgba(0,0,0,0.50);
 	}
 
-a.nav-link{
+a.nav-link, a.parent{
 	font-size: 14px;
 	color: #DFDFDF;
 	letter-spacing: 0;
 	text-transform: uppercase;
 	font-weight: 300;
 }
+
+a.parent, a.submenu{
+	text-decoration: none;
+}
+
+a.submenu{
+
+	list-style: none;
+}
+
+.submenu{
+    font-size: 14px;
+	color: #DFDFDF;
+	letter-spacing: 1;
+	text-transform: uppercase;
+	font-weight: 300;
+	text-align: center;
+	
+	display:block;
+	
+	
+}
+
+ul.desplegable-box{
+	width:50px;
+	list-style: none;
+}
+
+
 
 li.nav-item.active{
 	border-bottom: 1px solid #A9880F;
