@@ -80,7 +80,7 @@ li.nav-item.active{
 }
 
 .footer-index {
-	margin-top: 80px;
+	margin-top: 4%;
 	background-image: -webkit-linear-gradient(270deg,rgba(0,0,0,1.00) 17.61%,rgba(85,21,21,1.00) 100%);
 	background-image: -moz-linear-gradient(270deg,rgba(0,0,0,1.00) 17.61%,rgba(85,21,21,1.00) 100%);
 	background-image: -o-linear-gradient(270deg,rgba(0,0,0,1.00) 17.61%,rgba(85,21,21,1.00) 100%);
@@ -88,4 +88,7 @@ li.nav-item.active{
 }
 .footer-end {
 	margin-top: 30px;
+}
+.social-net {
+	padding-top: 12px;
 }
