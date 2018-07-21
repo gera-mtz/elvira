@@ -1,5 +1,5 @@
 body{
-	background-color: #000;
+	background-color: #0E0E0E;
 	font-family: 'Raleway', sans-serif;
 }
 
@@ -98,10 +98,10 @@ li.nav-item.active{
 	position: relative;
 	content: '';
 	display: block;
-	background-image: -webkit-linear-gradient(270deg,rgba(255,255,255,0.00) 0%,rgba(0,0,0,0.7) 74.08%,rgba(0,0,0,1.00) 100%);
-	background-image: -moz-linear-gradient(270deg,rgba(255,255,255,0.00) 0%,rgba(0,0,0,0.7) 74.08%,rgba(0,0,0,1.00) 100%);
-	background-image: -o-linear-gradient(270deg,rgba(255,255,255,0.00) 0%,rgba(0,0,0,0.7) 74.08%,rgba(0,0,0,1.00) 100%);
-	background-image: linear-gradient(180deg,rgba(255,255,255,0.00) 0%,rgba(0,0,0,0.7) 74.08%,rgba(0,0,0,1.00) 100%);
+	background-image: -webkit-linear-gradient(270deg,rgba(255,255,255,0.00) 0%,rgba(14,14,14,.7) 74.08%,rgba(14,14,14,1) 100%);
+	background-image: -moz-linear-gradient(270deg,rgba(255,255,255,0.00) 0%,rgba(14,14,14,.7) 74.08%,rgba(14,14,14,1) 100%);
+	background-image: -o-linear-gradient(270deg,rgba(255,255,255,0.00) 0%,rgba(14,14,14,.7) 74.08%,rgba(14,14,14,1)100%);
+	background-image: linear-gradient(180deg,rgba(255,255,255,0.00) 0%,rrgba(14,14,14,.7) 74.08%,rgba(14,14,14,1)100%);
 	margin-top: -450px;
 	height: 450px;
 }
@@ -147,6 +147,17 @@ li.nav-item.active{
 	text-transform: uppercase;
 }
 
+/*Bloque rojo sirve para las entradas no index muestren el degradado*/
+.bloque-rojo{
+background: #551515;
+background-image: linear-gradient(0deg, #0E0E0E 28%, rgba(14,14,14,0.00) 82%);
+}
+
+/*Agrega un espacio para los títulos que no tienen el css de carrusel*/
+.non-index-title{
+	height: 400px;
+}
+
 hr{
 	height: 1;
     background: #4B3D07;
@@ -156,10 +167,10 @@ hr{
 
 .footer-index {
 	margin-top: 4%;
-	background-image: -webkit-linear-gradient(270deg,rgba(0,0,0,1.00) 17.61%,rgba(85,21,21,1.00) 100%);
-	background-image: -moz-linear-gradient(270deg,rgba(0,0,0,1.00) 17.61%,rgba(85,21,21,1.00) 100%);
-	background-image: -o-linear-gradient(270deg,rgba(0,0,0,1.00) 17.61%,rgba(85,21,21,1.00) 100%);
-	background-image: linear-gradient(180deg,rgba(0,0,0,1.00) 17.61%,rgba(85,21,21,1.00) 100%);
+	background-image: -webkit-linear-gradient(270deg,rgba(14,14,14,1.00) 17.61%,rgba(85,21,21,1.00) 100%);
+	background-image: -moz-linear-gradient(270deg,rgba(14,14,14,1.00) 17.61%,rgba(85,21,21,1.00) 100%);
+	background-image: -o-linear-gradient(270deg,rgba(14,14,14,1.00) 17.61%,rgba(85,21,21,1.00) 100%);
+	background-image: linear-gradient(180deg,rgba(14,14,14,1.00) 17.61%,rgba(85,21,21,1.00) 100%);
 }
 .footer-end {
 	margin-top: 20px;
