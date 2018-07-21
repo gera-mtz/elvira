@@ -22,19 +22,31 @@ a.nav-link, a.parent{
 	font-weight: 300;
 }
 
+/*quita el cuadro alrededor del menu hamburguesa*/
+.navbar-dark .navbar-toggler {
+    border-color: rgba(255,255,255,0);
+}
+/*pequeño ajuste a la posición de la hamburguesa*/
+.navbar-toggler {
+    padding: .25rem .15rem;
+}
+
+@media (max-width: 991px) {
+  .dropdown-item{
+	text-align: left;
+	}
+}
+
 .dropdown-menu{
 	border-radius: 0;
-	/* Rectangle 4: */
 	background: #0E0E0E;
 	box-shadow: 0 2px 4px 0 rgba(0,0,0,0.50);
 	text-align: center;
-	/* Actores Actrices Tal: */
 	
 }
 
 .dropdpwn-item {
 	font-family: Helvetica;
-	
 	letter-spacing: 0.86px;
 	text-align: center;
 	line-height: 25px;
