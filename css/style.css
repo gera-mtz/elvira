@@ -32,9 +32,19 @@ a.nav-link, a.parent{
 }
 
 @media (max-width: 991px) {
-  .dropdown-item{
-	text-align: left;
+  	.dropdown-item{
+		text-align: left;
 	}
+}
+
+#navbarSupportedContent{
+	position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 1;
+    width: 280px; /*example + never use min-width with this solution */
+    height: 100%;
+	background-color: black;
 }
 
 .dropdown-menu{
@@ -45,15 +55,11 @@ a.nav-link, a.parent{
 	
 }
 
-.dropdpwn-item {
+.dropdown-item {
 	font-family: Helvetica;
 	letter-spacing: 0.86px;
 	text-align: center;
 	line-height: 25px;
-}
-
-.dropdpwn-item:hover{
-	
 }
 
 .dropdown-menu a{
@@ -86,8 +92,6 @@ ul.desplegable-box{
 li.nav-item.active{
 	border-bottom: 1px solid #A9880F;
 }
-
-align="left"
 
 .carousel-inner{
 	position: relative;
