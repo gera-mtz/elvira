@@ -49,7 +49,7 @@ li.nav-item.active{
 
 	li.nav-item.active{
 	border-bottom: 0px;
-}
+	}
 }
 
 .dropdown-menu{
@@ -147,7 +147,9 @@ li.nav-item.active{
 	text-transform: uppercase;
 }
 
-/*Bloque rojo sirve para las entradas no index muestren el degradado*/
+
+
+/*Bloque rojo sirve para las entradas no index muestren el degradado va en header*/
 .bloque-rojo{
 background: #551515;
 background-image: linear-gradient(0deg, #0E0E0E 28%, rgba(14,14,14,0.00) 82%);
@@ -156,6 +158,8 @@ height: 400px;
 
 
 
+
+/*pequeña raya que va antes de footer*/
 hr{
 	height: 1;
     background: #4B3D07;
