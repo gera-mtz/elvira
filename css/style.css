@@ -157,8 +157,6 @@ height: 400px;
 }
 
 
-
-
 /*pequeña raya que va antes de footer*/
 hr{
 	height: 1;
@@ -191,5 +189,27 @@ hr{
 .correct-align-footer{
 	margin-bottom: 0px;
 	margin-top:  5px;
+
+}
+
+/*Formulario*/
+
+.form-control{
+	margin-bottom: 10px;
+}
+
+.form-group{
+	width: 400px;
+	margin-right: auto;
+	margin-left: auto;
+}
+
+@media (max-width: 460px){
+	.form-group{
+	width: 100%;
+	}
+	form{
+	width: 100%;
+	}
 
 }
