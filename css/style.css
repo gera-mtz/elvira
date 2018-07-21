@@ -151,12 +151,10 @@ li.nav-item.active{
 .bloque-rojo{
 background: #551515;
 background-image: linear-gradient(0deg, #0E0E0E 28%, rgba(14,14,14,0.00) 82%);
+height: 400px;
 }
 
-/*Agrega un espacio para los títulos que no tienen el css de carrusel*/
-.non-index-title{
-	height: 400px;
-}
+
 
 hr{
 	height: 1;
