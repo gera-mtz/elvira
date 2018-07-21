@@ -22,12 +22,38 @@ a.nav-link, a.parent{
 	font-weight: 300;
 }
 
-a.parent, a.submenu{
-	text-decoration: none;
+.dropdown-menu{
+	border-radius: 0;
+	/* Rectangle 4: */
+	background: #0E0E0E;
+	box-shadow: 0 2px 4px 0 rgba(0,0,0,0.50);
+	text-align: center;
+	/* Actores Actrices Tal: */
+	
 }
 
-a.submenu{
-	list-style: none;
+.dropdpwn-item {
+	font-family: Helvetica;
+	
+	letter-spacing: 0.86px;
+	text-align: center;
+	line-height: 25px;
+}
+
+.dropdpwn-item:hover{
+	
+}
+
+.dropdown-menu a{
+	font-size: 12px;
+	color: #DFDFDF;
+	text-transform: uppercase;
+	
+}
+
+.dropdown-menu a:hover{
+	color: #A9880F;
+	background: #0E0E0E;
 }
 
 .submenu{
@@ -48,6 +74,8 @@ ul.desplegable-box{
 li.nav-item.active{
 	border-bottom: 1px solid #A9880F;
 }
+
+align="left"
 
 .carousel-inner{
 	position: relative;
