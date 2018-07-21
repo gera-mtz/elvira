@@ -77,10 +77,10 @@ li.nav-item.active{
 }
 
 .man-item {
-	margin: 2% 4px;
-	flex: 0 1 calc(25% - 8px);
+	width: 20%;
+	height: 20%;
+	margin: 2%;
 	text-align: center;
-
 }
 
 .man-item img {
@@ -88,8 +88,8 @@ li.nav-item.active{
 }
 
 .man-item img{
-	width: 220px;
-	height: 220px;
+	width: 15rem;
+	height: 15rem;
 }
 
 .management {
@@ -110,6 +110,10 @@ li.nav-item.active{
 	text-align: center;
 	text-shadow: 0 2px 4px rgba(0,0,0,0.50);
 	text-transform: uppercase;
+}
+
+.cont{
+	display: flex;
 }
 
 .footer-index {
