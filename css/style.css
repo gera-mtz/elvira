@@ -37,14 +37,28 @@ a.nav-link, a.parent{
 	}
 }
 
-#navbarSupportedContent{
-	position: fixed;
-    top: 0;
-    left: 0;
-    z-index: 1;
-    width: 280px; /*example + never use min-width with this solution */
-    height: 100%;
-	background-color: black;
+
+@media (max-width: 991px) {
+	/*Este es para modificar toda la barra lateral de menus*/
+	
+	#navbarSidebar{ /*toda la barra de menu*/
+		/*NOTA: si va a modificar cualquier otro elemento hijo, ya sea los ul, li, a o div, primero se declara el id (es decir el #navbarSidebar más la propiedad hijo como ul, li, a, div o el nombre de la clase).
+		Ejemplo:
+			#navbarSidebar ul{
+				margin: 20px;
+			}
+		Las declaraciones se hacen despues de cerrar esta propiedad. Favor de no modificar esta misma propiedad ya que despues altera el script jquery que modifique y que tanto he batallado para mover u.u; si quiere un cambio, favor de contactar a su guapo programador. <3
+		*/
+		position: fixed;
+		top: 0;
+		left: 0;
+		z-index: 1;
+		width: 280px;
+		height: 100%;
+		background-color: black;
+		transition: all 0.5s ease-in-out;
+		display: none;
+	}	
 }
 
 .dropdown-menu{
@@ -52,7 +66,6 @@ a.nav-link, a.parent{
 	background: #0E0E0E;
 	box-shadow: 0 2px 4px 0 rgba(0,0,0,0.50);
 	text-align: center;
-	
 }
 
 .dropdown-item {
