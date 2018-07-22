@@ -14,6 +14,17 @@ p{
 	text-shadow: 0 2px 4px rgba(0,0,0,0.50);
 	}
 
+h3{
+	font-size: 24px;
+	font-family: 'Raleway';
+	color: #DFDFDF;
+	letter-spacing: 10px;
+	text-align: center;
+	text-shadow: 0 2px 4px rgba(0,0,0,0.50);
+	text-transform: uppercase;
+	font-weight: 300;
+}
+
 a.nav-link, a.parent{
 	font-size: 14px;
 	color: #DFDFDF;
