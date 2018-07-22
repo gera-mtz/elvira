@@ -203,6 +203,45 @@ hr{
 
 }
 
+/*Talleres*/
+
+.taller-info p{
+	text-align: left;
+}
+
+.taller-info h3{
+	text-align: left;
+}
+
+.taller-descripcion{
+	padding-bottom: 10px;
+}
+
+.taller-dato{
+	margin-bottom: 3px;
+}
+
+.taller-img{
+	background-image: url(../img/bg-taller.png);
+	background-repeat: no-repeat;
+	background-position: center center;
+    text-align: center;
+    height: 220px;
+    width: 300px;
+    padding: 0;
+}
+
+.taller-img iframe{
+	padding-top: 33px;
+}
+
+@media (max-width: 1160px){
+	.taller-img .taller-info{
+		display: block;
+	}
+
+}
+
 /*Servicios*/
 .servicios-texto{
 	width: 50%;
