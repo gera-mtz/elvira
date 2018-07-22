@@ -205,6 +205,11 @@ hr{
 
 /*Talleres*/
 
+.taller-info{
+	padding-left: 50px;
+	padding-top: 50px;
+}
+
 .taller-info p{
 	text-align: left;
 }
@@ -229,15 +234,21 @@ hr{
     height: 220px;
     width: 300px;
     padding: 0;
+    margin-top: 50px;
 }
 
 .taller-img iframe{
 	padding-top: 33px;
 }
 
-@media (max-width: 1160px){
-	.taller-img .taller-info{
-		display: block;
+@media (max-width: 1130px){
+	.taller-info{
+		padding: 0;
+		padding-top: 50px;
+	}
+
+	.taller-img{
+		margin-top: 100px
 	}
 
 }
