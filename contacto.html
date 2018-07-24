@@ -13,7 +13,8 @@
 	<link rel="stylesheet" type="text/css" href="css/style.css">	
 </head>
 <body>
-	<div id="fb-root"></div>
+	<div id="fb-root">
+	</div>
 	<script>
 		(function(d, s, id) {
 			var js, fjs = d.getElementsByTagName(s)[0];
@@ -23,19 +24,19 @@
 			fjs.parentNode.insertBefore(js, fjs);
 		}(document, 'script', 'facebook-jssdk'));
 	</script>
-	<header>
+<header>
 		<nav class="navbar navbar-expand-lg navbar-dark fixed-top">
-			<div class="container-fluid">
+			<div class="container-fluid ">
 				<a class="navbar-brand" href="#">
 					<img src="img/SVG-logo/logo-bullet.svg" width="30px" height="30px" alt="logo">
 					<img src="img/SVG-logo/logo-typo.svg" height="30px" alt="elvira richards">
 				</a>
-				<button id="buttonResponsive" class="navbar-toggler navbar-toggler-right" type="button" data-toggle="" data-target="#navbarSidebar" aria-controls="navbarSidebar" aria-expanded="false" aria-label="Toggle navigation">
+				<button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
           			<span class="navbar-toggler-icon"></span>
         		</button>
-				<div class="sidebar" id="navbarSidebar">
+				<div class="collapse navbar-collapse" id="navbarSupportedContent">
 					<ul class="nav navbar-nav ml-auto">
-						<li class="nav-item active"><a class="nav-link" href="index.html" title="">Inicio</a></li>
+						<li class="nav-item"><a class="nav-link" href="index.html" title="">Inicio</a></li>
 						<li class="nav-item dropdown"><a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false" title="">Management</a>
 							<div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
 								<a class="dropdown-item" href="#">Actrices</a>
@@ -49,77 +50,63 @@
 						<li class="nav-item"><a class="nav-link" href="talleres.html" title="">Talleres</a></li>
 						<li class="nav-item"><a class="nav-link" href="servicios.html" title="">Servicios</a></li>
 						<li class="nav-item"><a class="nav-link" href="#" title="">Noticias</a></li>
-						<li class="nav-item"><a class="nav-link" href="contacto.html" title="">Contacto</a></li>
+						<li class="nav-item active"><a class="nav-link" href="#" title="">Contacto</a></li>
 					</ul>					
 				</div>
 			</div>
 		</nav>
 	</header>
-	<div>
-		<div id="carouselExample" class="carousel slide carousel-fade" data-ride="carousel">
-		 	<div class="carousel-inner">
-		    	<div class="carousel-item active">
-		      		<img class="d-block w-100" src="img/SLIDER1.png?auto=yes&bg=777&fg=555&text=First slide" alt="First slide">
-		    	</div>
-		    	<div class="carousel-item">
-		      		<img class="d-block w-100" src="img/SLIDER2.png?auto=yes&bg=666&fg=444&text=Second slide" alt="Second slide">
-		    	</div>
-		    	<div class="carousel-item"> 
-					<img class="d-block w-100" src="img/SLIDER3.png" alt="Imagen 3" style="animation-play-state: paused;">
-				</div>
-			</div>
-		  	<a class="carousel-control-prev" href="#carouselExample" role="button" data-slide="prev">
-				<span class="carousel-control-prev-icon" aria-hidden="true"></span>
-				<span class="sr-only">Anterior</span>
-		    </a>
-  			<a class="carousel-control-next" href="#carouselExample" role="button" data-slide="next">
-    			<span class="carousel-control-next-icon" aria-hidden="true"></span>
-    			<span class="sr-only">Siguiente</span>
-  			</a>
+	
+
+		<div class="bloque-rojo">
 		</div>
-		<div class="col-lg-10 about-us" style="float: none; margin-right: auto; margin-left: auto; margin-bottom: 0;">
-			<h1 class="title">Nosotros</h1>
-			<br><br>
-			<p>Most people consider hair combing a routine activity. There are people who keep a particular hair style throughout their life. On the other hand, younger generations adopt new hair styles according to new trends.</p>
+	
+		<div class="col-lg-10 about-us" style="float: none; margin-right: auto; margin-left: auto; margin-bottom: 0; text-align: center;">
+			<h1 class="title ">Contacto</h1>
+				
+				<div class="container">
+				<form>
+
+					<div class="form-group" style="text-align: center">
+						<br>
+						<input type="name" class="form-control" id="exampleInputName1" aria-describedby="nameHelp" placeholder="Nombre*">
+						<input type="cellphone" class="form-control" id="exampleInputPassword1" placeholder="Teléfono*">
+						<input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Email">
+						<textarea class="form-control" id="exampleFormControlTextarea1" rows="5" placeholder="Estoy interesado en..."></textarea>
+						<button type="submit" class="btn btn-contacto">Enviar</button>
+					</div><!-- Form group-->
+
+				</form>
+				</div><!-- container-->
+				
+				<br><br>
+
+				<div class="container">
+					<div class="row">
+						<div class="col-sm">
+							<h3>Dirección</h3>
+							<p>Francisco Ortega # 14 Col. Villas Coyoacán Deleg. Coyoacán, C.P. 04000 México D.F.</p>
+						</div>
+						<div class="col-sm">
+							<h3>Teléfonos</h3>
+							<p>Fijo: 2455 1954 y 3330 2694
+								Cel. 04455 8505 8114</p>
+						</div>
+						<div class="col-sm">
+							<h3>Correos</h3>
+							<p>richardscasting@gmail.com
+							richardselvicasting@yahoo.com</p>
+						</div>
+					</div> <!-- 3 columnas -->
+
+					<br><br>
+
+					<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3764.4906753173846!2d-99.16504224968288!3d19.347895348333566!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x85d1ffdc99c8acb7%3A0xa52f0a95ae04241f!2sFrancisco+Ortega+14%2C+Coyoac%C3%A1n%2C+04000+Ciudad+de+M%C3%A9xico%2C+CDMX!5e0!3m2!1ses-419!2smx!4v1532222420686" width="100%" height="450" frameborder="0" style="border:0" allowfullscreen></iframe>
+					
+				</div> <!-- *col-lg-10-->
 		</div>
-		<div class="container management">
-			<div class="d-flex justify-content-start align-items-center flex-wrap">
-				<div class="man-item">
-					<img src="img/actores curado/12 GABRIELA STECK.jpg">
-				</div>
-				<div class="man-item">
-					<img src="img/actores curado/3 ANABEL.JPG">
-				</div>
-				<div class="man-item">
-					<img src="img/actores curado/3 JORGE.jpg">
-				</div>
-				<div class="man-item">
-					<img src="img/actores curado/4 ADRIANA CARDEÑA.jpg">
-				</div>
-				<div class="man-item">
-					<img src="img/actores curado/4.jpg">
-				</div>
-				<div class="man-item">
-					<img src="img/actores curado/5 ELPIDIA CARRILLO.jpg">
-				</div>
-				<div class="man-item">
-					<img src="img/actores curado/8 DUNIA.jpg">
-				</div>
-				<div class="man-item">
-					<img src="img/actores curado/Adriana Roel.jpg">
-				</div>
-				<div class="man-item">
-					<img src="img/actores curado/ALEJANDRA LEMUS 7.jpg">
-				</div>
-				<div class="man-item">
-					<img src="img/actores curado/ALEX PEÑA 5.jpg">
-				</div>
-				<div class="man-item">
-					<img src="img/actores curado/ANA LAVERDE (3).jpg">
-				</div>
-			</div>
-		</div>
-	</div>
+
+	
 	
 	<footer class="footer-index">
 		<div class="container">

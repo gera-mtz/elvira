@@ -13,7 +13,8 @@
 	<link rel="stylesheet" type="text/css" href="css/style.css">	
 </head>
 <body>
-	<div id="fb-root"></div>
+	<div id="fb-root">
+	</div>
 	<script>
 		(function(d, s, id) {
 			var js, fjs = d.getElementsByTagName(s)[0];
@@ -23,19 +24,19 @@
 			fjs.parentNode.insertBefore(js, fjs);
 		}(document, 'script', 'facebook-jssdk'));
 	</script>
-	<header>
+<header>
 		<nav class="navbar navbar-expand-lg navbar-dark fixed-top">
-			<div class="container-fluid">
+			<div class="container-fluid ">
 				<a class="navbar-brand" href="#">
 					<img src="img/SVG-logo/logo-bullet.svg" width="30px" height="30px" alt="logo">
 					<img src="img/SVG-logo/logo-typo.svg" height="30px" alt="elvira richards">
 				</a>
-				<button id="buttonResponsive" class="navbar-toggler navbar-toggler-right" type="button" data-toggle="" data-target="#navbarSidebar" aria-controls="navbarSidebar" aria-expanded="false" aria-label="Toggle navigation">
+				<button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
           			<span class="navbar-toggler-icon"></span>
         		</button>
-				<div class="sidebar" id="navbarSidebar">
+				<div class="collapse navbar-collapse" id="navbarSupportedContent">
 					<ul class="nav navbar-nav ml-auto">
-						<li class="nav-item active"><a class="nav-link" href="index.html" title="">Inicio</a></li>
+						<li class="nav-item"><a class="nav-link" href="index.html" title="">Inicio</a></li>
 						<li class="nav-item dropdown"><a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false" title="">Management</a>
 							<div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
 								<a class="dropdown-item" href="#">Actrices</a>
@@ -47,7 +48,7 @@
          				</li>
 						<li class="nav-item"><a class="nav-link" href="#" title="">Casting</a></li>
 						<li class="nav-item"><a class="nav-link" href="talleres.html" title="">Talleres</a></li>
-						<li class="nav-item"><a class="nav-link" href="servicios.html" title="">Servicios</a></li>
+						<li class="nav-item active"><a class="nav-link" href="servicios.html" title="">Servicios</a></li>
 						<li class="nav-item"><a class="nav-link" href="#" title="">Noticias</a></li>
 						<li class="nav-item"><a class="nav-link" href="contacto.html" title="">Contacto</a></li>
 					</ul>					
@@ -55,71 +56,37 @@
 			</div>
 		</nav>
 	</header>
-	<div>
-		<div id="carouselExample" class="carousel slide carousel-fade" data-ride="carousel">
-		 	<div class="carousel-inner">
-		    	<div class="carousel-item active">
-		      		<img class="d-block w-100" src="img/SLIDER1.png?auto=yes&bg=777&fg=555&text=First slide" alt="First slide">
-		    	</div>
-		    	<div class="carousel-item">
-		      		<img class="d-block w-100" src="img/SLIDER2.png?auto=yes&bg=666&fg=444&text=Second slide" alt="Second slide">
-		    	</div>
-		    	<div class="carousel-item"> 
-					<img class="d-block w-100" src="img/SLIDER3.png" alt="Imagen 3" style="animation-play-state: paused;">
-				</div>
+	
+
+		<div class="bloque-rojo">
+		</div>
+	
+		<div class="col-lg-10 about-us" style="float: none; margin-right: auto; margin-left: auto; margin-bottom: 0; text-align: center;">
+			<h1 class="title ">Servicios</h1>
+			
+			<br><br>	
+			
+			<div>
+				<img class="logo-servicios" src="img/servicios-logos/servicio1.png">
+				<h3>Fotografía</h3>
+				<br>
+				<p class="servicios-texto">Most people consider hair combing a routine activity. There are people who keep a particular hair style throughout their life. On the other hand, younger generations adopt new hair styles according to new trends.</p>
+				<button class="btn btn-servicios">Ver Más</button>
+
 			</div>
-		  	<a class="carousel-control-prev" href="#carouselExample" role="button" data-slide="prev">
-				<span class="carousel-control-prev-icon" aria-hidden="true"></span>
-				<span class="sr-only">Anterior</span>
-		    </a>
-  			<a class="carousel-control-next" href="#carouselExample" role="button" data-slide="next">
-    			<span class="carousel-control-next-icon" aria-hidden="true"></span>
-    			<span class="sr-only">Siguiente</span>
-  			</a>
-		</div>
-		<div class="col-lg-10 about-us" style="float: none; margin-right: auto; margin-left: auto; margin-bottom: 0;">
-			<h1 class="title">Nosotros</h1>
-			<br><br>
-			<p>Most people consider hair combing a routine activity. There are people who keep a particular hair style throughout their life. On the other hand, younger generations adopt new hair styles according to new trends.</p>
-		</div>
-		<div class="container management">
-			<div class="d-flex justify-content-start align-items-center flex-wrap">
-				<div class="man-item">
-					<img src="img/actores curado/12 GABRIELA STECK.jpg">
-				</div>
-				<div class="man-item">
-					<img src="img/actores curado/3 ANABEL.JPG">
-				</div>
-				<div class="man-item">
-					<img src="img/actores curado/3 JORGE.jpg">
-				</div>
-				<div class="man-item">
-					<img src="img/actores curado/4 ADRIANA CARDEÑA.jpg">
-				</div>
-				<div class="man-item">
-					<img src="img/actores curado/4.jpg">
-				</div>
-				<div class="man-item">
-					<img src="img/actores curado/5 ELPIDIA CARRILLO.jpg">
-				</div>
-				<div class="man-item">
-					<img src="img/actores curado/8 DUNIA.jpg">
-				</div>
-				<div class="man-item">
-					<img src="img/actores curado/Adriana Roel.jpg">
-				</div>
-				<div class="man-item">
-					<img src="img/actores curado/ALEJANDRA LEMUS 7.jpg">
-				</div>
-				<div class="man-item">
-					<img src="img/actores curado/ALEX PEÑA 5.jpg">
-				</div>
-				<div class="man-item">
-					<img src="img/actores curado/ANA LAVERDE (3).jpg">
-				</div>
+			<br><br><br>
+			<div>
+				<img class="logo-servicios" src="img/servicios-logos/servicio2.png">
+				<h3>Producción</h3>
+				<br>
+				<p class="servicios-texto">Most people consider hair combing a routine activity. There are people who keep a particular hair style throughout their life. On the other hand, younger generations adopt new hair styles according to new trends.</p>
+				<button class="btn btn-servicios">Ver Más</button>	
 			</div>
+
+				
 		</div>
-	</div>
+
+	
 	
 	<footer class="footer-index">
 		<div class="container">
