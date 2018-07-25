@@ -79,7 +79,6 @@
 		flex: 0 1 calc(30% - 8px);
 		margin: 2%;
 		padding: 2%;
-		text-align: center;
 	}
 	.man-item img{
 		width: 8em;
@@ -88,24 +87,31 @@
 	}
 }
 
-@media(max-width: 575.97px){ 
+@media(min-width: 334.98px) and (max-width: 575.97px){ 
 	.man-item{
-		flex: 1 1 calc(30% - 8px);
-		margin: 2%;
-		padding: 2%;
+		flex: 0 1 calc(50% - 8px);
+		margin: 0% 2px;
+		padding: 4%;
 		text-align: center;
 	}
 	.man-item img{
-		width: 8em;
-		height: 8em;
+		width: 7em;
+		height: 7em;
 		object-fit : cover;
 	}
 }
 
 @media(max-width: 334.97px){
+	.man-item{
+		flex: 0 1 calc(50% - 8px);
+		margin: 0% 2px;
+		padding: 4%;
+		text-align: center;
+	}
 	.man-item img{
-		width: 6em !important;
-		height: 6em !important;
+		width: 6em;
+		height: 6em;
+		object-fit : cover;
 	}
 	.navbar-brand img{
 		padding: 4px;
