@@ -1,3 +1,121 @@
+/*Comportamiento responsivo del menú*/
+@media (max-width: 991px) {
+    .navbar-collapse {
+        text-align: center;
+    }
+
+    .navbar-dark .navbar-nav .active>.nav-link,
+    .navbar-dark .navbar-nav .nav-link.active,
+    .navbar-dark .navbar-nav .nav-link.show,
+    .navbar-dark .navbar-nav .show>.nav-link{
+        color: #FFDF66;
+    }
+
+
+	li.nav-item.active{
+	    border-bottom: 0px;
+    }
+	  /*Este es para modificar toda la barra lateral de menus*/
+	
+	#navbarSidebar{ /*toda la barra de menu*/
+        /*NOTA: si va a modificar cualquier otro elemento hijo, ya sea los ul, li, a o div, primero se declara el id (es decir el #navbarSidebar más la propiedad hijo como ul, li, a, div o el nombre de la clase).
+        Ejemplo:
+          #navbarSidebar ul{
+            margin: 20px;
+          }
+        Las declaraciones se hacen despues de cerrar esta propiedad. Favor de no modificar esta misma propiedad ya que despues altera el script jquery que modifique y que tanto he batallado para mover u.u; si quiere un cambio, favor de contactar a su guapo programador. <3
+        */
+        position: fixed;
+        top: 0;
+        left: 0;
+        z-index: 1;
+        width: 280px;
+        height: 100%;
+        background-color: black;
+        transition: all 0.5s ease-in-out;
+        display: none;
+    }
+    .dropdown-item{
+        text-align: left;
+    }
+	#navbarSidebar .navbar-nav{
+		padding-top: 29px;
+	}
+	.nav-item{
+		text-align: center;
+	}
+}
+
+@media(min-width: 991.98px) { 
+	.man-item {
+		margin: 2% 4px;
+		flex: 0 1 calc(25% - 8px);
+		text-align: center;
+	}
+
+	.man-item img{
+		width: 12rem;
+		height: 12rem;
+		object-fit : cover;
+	}
+}
+
+@media(min-width: 767.98px) and (max-width: 991.97px) { 
+	.man-item{
+		flex: 0 1 calc(30% - 8px);
+		margin: 2%;
+		padding: 1%;
+		text-align: center;
+	}
+	.man-item img{
+		width: 10em;
+		height: 10em;
+		object-fit : cover;
+	}
+} 
+
+@media(min-width: 575.98px) and (max-width: 767.98px){ 
+	.man-item{
+		flex: 0 1 calc(30% - 8px);
+		margin: 2%;
+		padding: 2%;
+		text-align: center;
+	}
+	.man-item img{
+		width: 8em;
+		height: 8em;
+		object-fit : cover;
+	}
+}
+
+@media(max-width: 575.97px){ 
+	.man-item{
+		flex: 1 1 calc(30% - 8px);
+		margin: 2%;
+		padding: 2%;
+		text-align: center;
+	}
+	.man-item img{
+		width: 8em;
+		height: 8em;
+		object-fit : cover;
+	}
+}
+
+@media(max-width: 334.97px){
+	.man-item img{
+		width: 6em !important;
+		height: 6em !important;
+	}
+	.navbar-brand img{
+		padding: 4px;
+	}
+	#navbarSidebar{
+		width: 180px;
+	}
+}
+
+
 body{
 	background-color: #0E0E0E;
 	font-family: 'Raleway', sans-serif;
@@ -47,48 +165,7 @@ li.nav-item.active{
     padding: .25rem .15rem;
 }
 
-/*Comportamiento responsivo del menú*/
-@media (max-width: 991px) {
-    .navbar-collapse {
-        text-align: center;
-    }
 
-
-    .navbar-dark .navbar-nav .active>.nav-link,
-    .navbar-dark .navbar-nav .nav-link.active,
-    .navbar-dark .navbar-nav .nav-link.show,
-    .navbar-dark .navbar-nav .show>.nav-link{
-        color: #FFDF66;
-    }
-
-
-	  li.nav-item.active{
-	    border-bottom: 0px;
-    }
-	  /*Este es para modificar toda la barra lateral de menus*/
-	
-	  #navbarSidebar{ /*toda la barra de menu*/
-        /*NOTA: si va a modificar cualquier otro elemento hijo, ya sea los ul, li, a o div, primero se declara el id (es decir el #navbarSidebar más la propiedad hijo como ul, li, a, div o el nombre de la clase).
-        Ejemplo:
-          #navbarSidebar ul{
-            margin: 20px;
-          }
-        Las declaraciones se hacen despues de cerrar esta propiedad. Favor de no modificar esta misma propiedad ya que despues altera el script jquery que modifique y que tanto he batallado para mover u.u; si quiere un cambio, favor de contactar a su guapo programador. <3
-        */
-        position: fixed;
-        top: 0;
-        left: 0;
-        z-index: 1;
-        width: 280px;
-        height: 100%;
-        background-color: black;
-        transition: all 0.5s ease-in-out;
-        display: none;
-    }
-    .dropdown-item{
-        text-align: left;
-    }	
-}
 .dropdown-menu{
 	border-radius: 0;
 	background: #0E0E0E;
@@ -141,74 +218,6 @@ li.nav-item.active{
 	object-fit : cover;
 }
 
-@media(min-width: 991.98px) { 
-	.man-item {
-		margin: 2% 4px;
-		flex: 0 1 calc(25% - 8px);
-		text-align: center;
-	}
-
-	.man-item img{
-		width: 12rem;
-		height: 12rem;
-		object-fit : cover;
-	}
-}
-
-@media(min-width: 767.98px) and (max-width: 991.97px) { 
-	.man-item{
-		flex: 0 1 calc(30% - 8px);
-		margin: 2%;
-		padding: 1%;
-		text-align: center;
-	}
-	.man-item img{
-		width: 10em;
-		height: 10em;
-		object-fit : cover;
-	}
-} 
-
-@media(min-width: 575.98px) and (max-width: 767.98px){ 
-	.man-item{
-		flex: 0 1 calc(30% - 8px);
-		margin: 2%;
-		padding: 2%;
-		text-align: center;
-	}
-	.man-item img{
-		width: 8em;
-		height: 8em;
-		object-fit : cover;
-	}
-}
-
-@media(max-width: 575.97px){ 
-	.man-item{
-		flex: 0 1 calc(30% - 8px);
-		margin: 2%;
-		padding: 2%;
-		text-align: center;
-	}
-	.man-item img{
-		width: 8em;
-		height: 8em;
-		object-fit : cover;
-	}
-}
-
-@media(max-width: 334.97px){
-	.man-item img{
-		width: 6em !important;
-		height: 6em !important;
-	}
-	.navbar-brand img{
-		padding: 4px;
-	}
-	#navbarSidebar{
-		width: 180px;
-	}
-}
 
 .management {
 	margin-top: -120px;
