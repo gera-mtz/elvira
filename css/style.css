@@ -432,6 +432,11 @@ hr{
 
 /* Actores */
 .taller-info .slider-nav img{
-	width: 220px;
-	height: 220px;
+	width: 220px !important;
+	height: 220px !important;
+}
+
+.slider-for img{
+	width: 220px !important;
+	height: 220px !important;
 }
