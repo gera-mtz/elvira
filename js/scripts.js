@@ -1,19 +1,3 @@
-$('.slider-for').slick({
-	slidesToShow: 1,
-	slidesToScroll: 1,
-	arrows: false,
-	fade: true,
-	asNavFor: '.slider-nav'
-});
-
-$('.slider-nav').slick({
-	slidesToShow: 6,
-	slidesToScroll: 6,
-	asNavFor: '.slider-for',
-	dots: true,
-	focusOnSelect: true
-});
-
 /* When your mouse cursor enter the background, the fading won't pause and keep playing */ 
 $('.carousel').carousel({
     pause: "false" /* Change to true to make it paused when your mouse cursor enter the background */
