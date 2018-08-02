@@ -1,18 +1,17 @@
 $('.slider-for').slick({
 	slidesToShow: 1,
 	slidesToScroll: 1,
-	arrows: true,
-	asNavFor: '.slider-nav',
-	adaptiveHeight: true
+	arrows: false,
+	fade: true,
+	asNavFor: '.slider-nav'
 });
 
 $('.slider-nav').slick({
+	slidesToShow: 6,
+	slidesToScroll: 6,
+	asNavFor: '.slider-for',
 	dots: true,
-  	slidesToShow: 4,
-  	slidesToScroll: 1,
-  	asNavFor: '.slider-for',
-  	focusOnSelect: true,
-  	infinite: false
+	focusOnSelect: true
 });
 
 /* When your mouse cursor enter the background, the fading won't pause and keep playing */ 
