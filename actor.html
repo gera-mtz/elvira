@@ -10,6 +10,8 @@
 		<link rel="stylesheet" href="css/bootstrap-reboot.css">
 		<link href="https://fonts.googleapis.com/css?family=Raleway:100,100i,200,200i,300,300i,400,400i,500,500i,600,600i,700,700i,800,800i,900,900i" rel="stylesheet">
 		<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.1.1/css/all.css" integrity="sha384-O8whS3fhG2OnA5Kas0Y9l3cfpmYjapjI0E4theH4iuMD+pLhbf6JI0jIMfYcK3yZ" crossorigin="anonymous">
+		<link rel="stylesheet" type="text/css" href="css/slick.css"/>
+		<link rel="stylesheet" type="text/css" href="css/slick-theme.css"/>
 		<link rel="stylesheet" type="text/css" href="css/style.css">
 	</head>
 	<body>
@@ -26,29 +28,30 @@
 		</script>
 		<header>
 			<nav class="navbar navbar-expand-lg navbar-dark fixed-top">
-				<div class="container-fluid">
+				<div class="container-fluid ">
 					<a class="navbar-brand" href="#">
 						<img src="img/SVG-logo/logo-bullet.svg" width="30px" height="30px" alt="logo">
 						<img src="img/SVG-logo/logo-typo.svg" height="30px" alt="elvira richards">
 					</a>
-					<button id="buttonResponsive" class="navbar-toggler navbar-toggler-right" type="button" data-toggle="" data-target="#navbarSidebar" aria-controls="navbarSidebar" aria-expanded="false" aria-label="Toggle navigation">
-						<span class="navbar-toggler-icon"></span>
+					<button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+					<span class="navbar-toggler-icon"></span>
 					</button>
-					<div class="sidebar" id="navbarSidebar">
+					<div class="collapse navbar-collapse" id="navbarSupportedContent">
 						<ul class="nav navbar-nav ml-auto">
 							<li class="nav-item"><a class="nav-link" href="index.html" title="">Inicio</a></li>
-							<li class="nav-item dropdown"><a class="nav-link dropdown-toggle" href="management.html" id="navbarDropdownMenuLink" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false" title="">Management</a>
+							<li class="nav-item dropdown">
+								<a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false" title="">Management</a>
 								<div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
-									<a class="dropdown-item" href="management.html">Actrices</a>
-									<a class="dropdown-item" href="management.html">Actores</a>
-									<a class="dropdown-item" href="management.html">Talento Joven</a>
-									<a class="dropdown-item" href="management.html">Internacional</a>
-									<a class="dropdown-item" href="management.html">Más Talento</a>
+									<a class="dropdown-item" href="#">Actrices</a>
+									<a class="dropdown-item" href="#">Actores</a>
+									<a class="dropdown-item" href="#">Talento Joven</a>
+									<a class="dropdown-item" href="#">Internacional</a>
+									<a class="dropdown-item" href="#">Más Talento</a>
 								</div>
 							</li>
 							<li class="nav-item"><a class="nav-link" href="#" title="">Casting</a></li>
-							<li class="nav-item active"><a class="nav-link" href="#" title="">Talleres</a></li>
-							<li class="nav-item"><a class="nav-link" href="servicios.html" title="">Servicios</a></li>
+							<li class="nav-item"><a class="nav-link" href="talleres.html" title="">Talleres</a></li>
+							<li class="nav-item active"><a class="nav-link" href="servicios.html" title="">Servicios</a></li>
 							<li class="nav-item"><a class="nav-link" href="#" title="">Noticias</a></li>
 							<li class="nav-item"><a class="nav-link" href="contacto.html" title="">Contacto</a></li>
 						</ul>
@@ -59,34 +62,36 @@
 		<div class="bloque-rojo">
 		</div>
 		<div class="col-lg-10 about-us" style="float: none; margin-right: auto; margin-left: auto; margin-bottom: 0; text-align: center;">
-			<h1 class="title ">Talleres</h1>
-			<br><br>
 			<div class="container">
 				<div class="row">
-					<div class="col-span-4 taller-img">
-						<iframe src="https://www.youtube.com/embed/JDb-a7WxYII" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+					<!--IMG Actor-->
+					<div class="col-span-4 slider-for slider">
+						<div><img src="img/actores curado/HECTOR KOTSIFAKIS 3.jpg"></div>
+						<div><img src="img/actores curado/Hope Diaz 2-0523 rt online.jpg" alt="Hope"></div>
+						<div><img src="img/actores curado/JR03.jpg" alt="Jorge"></div>
+						<div><img src="img/actores curado/JOSEBA HERNANDEZ PRINCIPAL.jpg" alt="Joseba"></div>
+						<div><img src="img/actores curado/CONSTANTINO MORAN 4.jpg" alt="Constantino"></div>
+						<div><img src="img/actores curado/Hernán2.jpg" alt="Hernan"></div>
 					</div>
+					<!--/End/ IMG Actor-->
 					<div class="col-8 taller-info">
-						<h3>Taller de Dalcroze</h3>
-						<p class="taller-descripcion">Las mejores manos en actuar y la escuela de cine con títulos, cursos acelerados, y talleres intensivos. Las escuelas en la ciudad de Nueva York y LA.</p>
-						<p class="taller-dato">Dirección: 868 Wilderman Ferry Apt. 991 </p>
-						<p class="taller-dato">Fecha: 31 Jan 2018</p>
-						<p class="taller-dato">Costo: $3,000</p>
-						<p class="taller-dato">Informes al tel: 5555876524</p>
+						<h2>Héctor Kotsifakis</h2>
+						<p class="taller-descripcion">Most people consider hair combing a routine activity. There are people who keep a particular hair style throughout their life. On the other hand, younger generations adopt new hair styles according to new trends. To have a healthy hair, proper nutrition is required. General health has direct relation with the quality and quantity of hair. In order to make your hair beautiful, you need regular washing, use of hair oil, proper combing, etc.</p>
+						<a href="#">Ver CV completo</a>
+						<!--inicia div de carrusel-->
+						<div class="slider-nav slider">
+							<div><img src="img/actores curado/HECTOR KOTSIFAKIS 3.jpg"></div>
+							<div><img src="img/actores curado/Hope Diaz 2-0523 rt online.jpg" alt="Hope"></div>
+							<div><img src="img/actores curado/JR03.jpg" alt="Jorge"></div>
+							<div><img src="img/actores curado/JOSEBA HERNANDEZ PRINCIPAL.jpg" alt="Joseba"></div>
+							<div><img src="img/actores curado/CONSTANTINO MORAN 4.jpg" alt="Constantino"></div>
+							<div><img src="img/actores curado/Hernán2.jpg" alt="Hernan"></div>
+						</div>
+						<!--termina div de carrusel-->
 					</div>
 				</div>
-				<div class="row">
-					<div class="col-span-4 taller-img">
-						<img src="img/ej-cartel.png">
-					</div>
-					<div class="col-8 taller-info">
-						<h3>Stanislavsky</h3>
-						<p class="taller-descripcion">Las mejores manos en actuar y la escuela de cine con títulos, cursos acelerados, y talleres intensivos. Las escuelas en la ciudad de Nueva York y LA.</p>
-						<p class="taller-dato">Dirección: 868 Wilderman Ferry Apt. 991</p>
-						<p class="taller-dato">Fecha: 31 Jan 2018</p>
-						<p class="taller-dato">Costo: $3,000</p>
-						<p class="taller-dato">Informes al tel: 5555876524</p>
-					</div>
+				<div class="demo-reel">
+					<iframe src="https://www.youtube.com/embed/BxMgTdZEbMg" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
 				</div>
 			</div>
 		</div>
@@ -120,8 +125,12 @@
 			</div>
 		</footer>
 		<script src="js/jquery-3.3.1.min.js"></script>
+		<script src="js/jquery-1.11.0.min.js"></script>
 		<script src="js/bootstrap.bundle.min.js"></script>
 		<script src="js/bootstrap.min.js"></script>
+		<script src="js/jquery-migrate-1.2.1.min.js"></script>
+		<script type="text/javascript" src="js/slick.min.js"></script>
 		<script src="js/scripts.js"></script>
+		<script src="js/slick-custom.js"></script>
 	</body>
 </html>
