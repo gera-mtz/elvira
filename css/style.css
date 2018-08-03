@@ -445,3 +445,7 @@ hr{
 	height: 20em;
 	object-fit : cover;
 }
+
+.no-bloque-rojo{
+	height: 258px !important;
+}
