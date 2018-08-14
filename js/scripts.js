@@ -17,6 +17,10 @@ $(window).resize(function(){
 	} else{
 		$('#navbarSidebar').css('display', 'block');
 	}
+
+	/* */
+
+	
 });
 
 $('#buttonResponsive').on('click', function(){
