@@ -159,12 +159,12 @@ h2{
 
 a{
 	/* VER CV COMPLETO >: */
-font-family: .AppleSystemUIFont;
-font-size: 12px;
-color: #FFDF66;
-letter-spacing: 0;
-text-align: center;
-text-transform: uppercase;
+	font-family: .AppleSystemUIFont;
+	font-size: 12px;
+	color: #FFDF66;
+	letter-spacing: 0;
+	text-align: center;
+	text-transform: uppercase;
 }
 
 a:hover{
@@ -267,15 +267,12 @@ li.nav-item.active{
 	text-transform: uppercase;
 }
 
-
-
 /*Bloque rojo sirve para las entradas no index muestren el degradado va en header*/
 .bloque-rojo{
 	background: #551515;
 	background-image: linear-gradient(0deg, #0E0E0E 28%, rgba(14,14,14,0.00) 82%);
 	height: 400px;
 }
-
 
 /*pequeña raya que va antes de footer*/
 hr{
@@ -284,7 +281,6 @@ hr{
     width: 35%;
 }
 
-
 .footer-index {
 	margin-top: 4%;
 	background-image: -webkit-linear-gradient(270deg,rgba(14,14,14,1.00) 17.61%,rgba(85,21,21,1.00) 100%);
@@ -292,12 +288,13 @@ hr{
 	background-image: -o-linear-gradient(270deg,rgba(14,14,14,1.00) 17.61%,rgba(85,21,21,1.00) 100%);
 	background-image: linear-gradient(180deg,rgba(14,14,14,1.00) 17.61%,rgba(85,21,21,1.00) 100%);
 }
+
 .footer-end {
 	margin-top: 20px;
 	padding-bottom: 10px;
 	vertical-align: baseline;
-
 }
+
 .social-net {
 	padding-top: 12px;
 }
@@ -326,7 +323,6 @@ hr{
 	width: 100%;
 	height: 700px; 
 }
-
 
 /*Talleres*/
 
@@ -369,6 +365,10 @@ hr{
 @media (max-width: 1130px){
 	.taller-info{
 		padding: 0;
+		padding-top: 50px;
+	}
+
+	.info-actor{
 		padding-top: 50px;
 	}
 
@@ -448,4 +448,37 @@ hr{
 
 .no-bloque-rojo{
 	height: 258px !important;
+}
+
+@media (max-width: 1130px){
+	.actor-info{
+		padding-left: 50px;
+		padding-top: 0px; 
+	}
+}
+
+.slider-change-1{
+	display: none;
+}
+
+.slider-change-2{
+	display: block;
+}
+
+.slider-change-3{
+	display: none;
+}
+
+@media (min-width: 575.98px) and (max-width: 767.98px) {
+	.slider-change-1{
+		display: none;
+	}
+
+	.slider-change-2{
+		display: none;
+	}
+
+	.slider-change-3{
+		display: block;
+	}
 }
