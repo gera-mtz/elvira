@@ -436,6 +436,14 @@ hr{
 	height: 5em;
 }
 
+.actor-container{
+	padding-top: 30px;
+}
+
+.actor-container .taller-info{
+	padding-top: 5px;
+}
+
 .slider-for{
 	width: 30%;
 }
@@ -463,14 +471,7 @@ hr{
 }
 
 @media (max-width: 1130px){
-	.actor-info{
-		padding-left: 50px;
-		padding-top: 0px; 
-	}
-}
-
-@media (max-width: 1130px){
-	.actor-info{
+	.actor-container .actor-info{
 		padding-left: 50px;
 		padding-top: 0px; 
 	}
@@ -487,5 +488,43 @@ hr{
 
 	.slider-change-3{
 		display: block;
+	}
+
+	.slider-change-3 img{
+		width: 5em;
+		height: 5em;
+		object-fit : cover;
+	}
+	.slider-for img{
+		width: 100%;
+		height: 15em;
+		object-fit : cover;
+		margin-top: 20%;
+	}
+}
+
+@media (min-width: 575.98px) and (max-width: 575.97px) {
+	.slider-change-1{
+		display: none;
+	}
+
+	.slider-change-2{
+		display: none;
+	}
+
+	.slider-change-3{
+		display: block;
+	}
+
+	.slider-change-3 img{
+		width: 5em;
+		height: 5em;
+		object-fit : cover;
+	}
+	.slider-for img{
+		width: 100%;
+		height: 15em;
+		object-fit : cover;
+		margin-top: 20%;
 	}
 }
