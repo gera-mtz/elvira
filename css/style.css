@@ -392,6 +392,45 @@ hr{
 	width: 250px;
 }
 
+/*Noticias*/
+
+.video-hero-noticias{
+	width: 100%;
+	height: 700px;
+}
+
+.card{
+	background-color: transparent;
+	width: 33.3%;
+	padding: 10px;
+}
+
+.card-img-top{
+	height: 40%;
+	object-fit: cover;
+}
+
+.card-title{
+	font-size: 14px;
+	color: #FFDF66;
+	letter-spacing: 0;
+	line-height: 22px;
+	text-transform: uppercase;
+}
+
+.noticias-fecha{
+	font-size: 12px;
+	color: #FFFFFF;
+	letter-spacing: 0;
+}
+
+@media (max-width: 800px) {
+	.card{
+		width: 100%;
+		height: 
+	}
+}
+
 /*Formulario*/
 
 .form-control{
