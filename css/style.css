@@ -346,6 +346,21 @@ hr{
 	
 }
 
+/*Casting*/
+.elvira-info{
+	width: 600px;
+	margin-right: auto;
+	margin-left: auto;
+	font-size: 12px;
+	color: #DFDFDF;
+	letter-spacing: 1px;
+	line-height: 23px;
+	text-shadow: 0 2px 4px rgba(0,0,0,0.50);
+	text-align: center;
+
+	
+	}
+
 /*Talleres*/
 
 .taller-info{
