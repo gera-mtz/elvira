@@ -356,10 +356,30 @@ hr{
 	letter-spacing: 1px;
 	line-height: 23px;
 	text-shadow: 0 2px 4px rgba(0,0,0,0.50);
-	text-align: center;
-
-	
+	text-align: center;	
 	}
+
+.casting-redes{
+	text-align: left;
+	padding: 20px 0px 20px 20px;
+	border-left: 2px solid #4B3D07;
+}
+
+.casting-redes p{
+	display: inline;
+	padding-left: 20px;
+}
+
+.casting-redes img{
+	padding-top: 5px;
+}
+
+.casting-data {
+	/*padding-top: 15%;	*/
+	display: flex;
+   justify-content: center;
+   align-items: center;
+}
 
 /*Talleres*/
 
